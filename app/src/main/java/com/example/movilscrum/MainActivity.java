@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view)
             {
-                mostrarInformacion(textNombreTercerProducto.getText().toString(),"Tercer Producto";
+                mostrarInformacion(textNombreTercerProducto.getText().toString(),"Tercer Producto");
             }
         });
     }
