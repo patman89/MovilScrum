@@ -34,19 +34,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view)
             {
-
+                mostrarInformacion(textNombrePrimerProducto.getText().toString(),"Primer Producto");
             }
         });btnInformacionPrimerProducto.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view)
             {
-
+                mostrarInformacion(textNombreSegundoProducto.getText().toString(),"Segundo Producto");
             }
         });btnInformacionPrimerProducto.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view)
             {
-
+                mostrarInformacion(textNombreTercerProducto.getText().toString(),"Tercer Producto";
             }
         });
     }
