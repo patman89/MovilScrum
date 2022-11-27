@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".ProductListActivity"
     android:background="@drawable/fondo">
 
 
@@ -24,7 +24,7 @@
 
 
             <TextView
-                android:id="@+id/title"
+                android:id="@+id/titleProduct"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Productos"
@@ -42,14 +42,14 @@
             android:padding="10dp">
 
             <ImageView
-                android:id="@+id/imagenPrimerProducto"
+                android:id="@+id/imageFirstProduct"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_margin="10dp"
                 app:srcCompat="@drawable/regla"  />
 
             <TextView
-                android:id="@+id/nombrePrimerProducto"
+                android:id="@+id/nameFirstProduct"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -60,7 +60,7 @@
                 android:textColor="@color/white" />
 
             <Button
-                android:id="@+id/btnPrimerProducto"
+                android:id="@+id/btnFirstProduct"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -78,14 +78,14 @@
             android:padding="10dp">
 
             <ImageView
-                android:id="@+id/imagenSegundoProducto"
+                android:id="@+id/imageSecondProduct"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_margin="10dp"
                 app:srcCompat="@drawable/tijeras" />
 
             <TextView
-                android:id="@+id/nombreSegundoProducto"
+                android:id="@+id/nameSecondProduct"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -96,7 +96,7 @@
                 android:textColor="@color/white" />
 
             <Button
-                android:id="@+id/btnSegundoProducto"
+                android:id="@+id/btnSecondProduct"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -114,14 +114,14 @@
             android:padding="10dp">
 
             <ImageView
-                android:id="@+id/imagenTercerProducto"
+                android:id="@+id/imageThirdProduct"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_margin="10dp"
                 app:srcCompat="@drawable/lapiz" />
 
             <TextView
-                android:id="@+id/nombreTercerProducto"
+                android:id="@+id/nameThirdProduct"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -132,7 +132,7 @@
                 android:textColor="@color/white" />
 
             <Button
-                android:id="@+id/btnTercerProducto"
+                android:id="@+id/btnThirdProduct"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
