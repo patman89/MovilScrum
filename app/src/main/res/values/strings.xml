@@ -19,7 +19,10 @@
     <string name="first_product_name"> Regla</string>
     <string name="second_product_name"> Tijeras</string>
     <string name="third_product_name"> Lapiz</string>
-    <string name="btb_info_text">Info</string>
+    <string name="btbFirstProduct">Info</string>
+    <string name="btnSecondProduct">Info</string>
+    <string name="btnThirdProduct">Info</string>
+
 
     // InformationProductActivity
     <string name="title_description"> Descripcion</string>

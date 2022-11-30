@@ -64,7 +64,7 @@
                 android:id="@+id/productDescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="descripcionProducto"
+                android:text="@string/title_description"
                 android:textColor="@color/black"
                 android:textSize="18dp"
                 android:padding="5dp"/>
