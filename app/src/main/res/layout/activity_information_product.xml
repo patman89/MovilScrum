@@ -27,10 +27,11 @@
                 android:id="@+id/titleProduct"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Productos"
-                android:textColor="@color/black"
-                android:textSize="42sp"
-                android:padding="25dp"/>
+                android:fontFamily="@font/baloo_da"
+                android:padding="25dp"
+                android:text="IMPLEMENTOS"
+                android:textColor="@color/aqua"
+                android:textSize="42sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -39,12 +40,12 @@
             android:layout_margin="10dp"
             android:gravity="center"
             android:orientation="horizontal"
-            android:padding="10dp">
+            android:padding="1dp">
 
             <ImageView
                 android:id="@+id/imageFirstProduct"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
                 android:layout_margin="10dp"
                 app:srcCompat="@drawable/regla"  />
 
@@ -55,18 +56,23 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/white"
+                android:fontFamily="@font/patrick_hand"
                 android:inputType="textPersonName"
-                android:text="Regla"
-                android:textColor="@color/white" />
+                android:text="REGLA"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:typeface="normal" />
 
             <Button
                 android:id="@+id/btnFirstProduct"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
                 android:layout_margin="10dp"
-                android:backgroundTint="@color/purple_200"
+                android:background="@drawable/round_btn"
+                android:fontFamily="@font/patrick_hand"
                 android:text="Info"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:textSize="20sp" />
 
         </LinearLayout>
         <LinearLayout
@@ -75,12 +81,12 @@
             android:layout_margin="10dp"
             android:gravity="center"
             android:orientation="horizontal"
-            android:padding="10dp">
+            android:padding="1dp">
 
             <ImageView
                 android:id="@+id/imageSecondProduct"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
                 android:layout_margin="10dp"
                 app:srcCompat="@drawable/tijeras" />
 
@@ -91,32 +97,37 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/white"
+                android:fontFamily="@font/patrick_hand"
                 android:inputType="textPersonName"
-                android:text="Tijeras"
-                android:textColor="@color/white" />
+                android:text="TIJERAS"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btnSecondProduct"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
                 android:layout_margin="10dp"
-                android:backgroundTint="@color/purple_200"
+                android:background="@drawable/round_btn"
+                android:fontFamily="@font/patrick_hand"
+                android:lineSpacingExtra="20sp"
                 android:text="Info"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:textSize="20sp" />
 
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:gravity="center"
             android:orientation="horizontal"
-            android:padding="10dp">
+            android:padding="1dp">
 
             <ImageView
                 android:id="@+id/imageThirdProduct"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
                 android:layout_margin="10dp"
                 app:srcCompat="@drawable/lapiz" />
 
@@ -127,18 +138,22 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/white"
+                android:fontFamily="@font/patrick_hand"
                 android:inputType="textPersonName"
-                android:text="Lapiz"
-                android:textColor="@color/white" />
+                android:text="LAPIZ"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btnThirdProduct"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
                 android:layout_margin="10dp"
-                android:backgroundTint="@color/purple_200"
+                android:background="@drawable/round_btn"
+                android:fontFamily="@font/patrick_hand"
                 android:text="Info"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:textSize="20sp" />
 
         </LinearLayout>
 
