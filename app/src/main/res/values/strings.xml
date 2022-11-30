@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">MovilScrum</string>
+    <string name="title_activity_informacion_producto2">activity_informacionProducto2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    // HomeActivity strings
+    <string name="title_welcome"> Bienvenidos</string>
+    <string name="btn_login_text"> Entrar</string>
+
+    // ProductListActivity string
+    <string name="title_product"> Productos</string>
+    <string name="first_product_name"> Regla</string>
+    <string name="second_product_name"> Tijeras</string>
+    <string name="third_product_name"> Lapiz</string>
+    <string name="btbFirstProduct">Info</string>
+    <string name="btnSecondProduct">Info</string>
+    <string name="btnThirdProduct">Info</string>
+
+
+    // InformationProductActivity
+    <string name="title_description"> Descripcion</string>
+    <string name="first_product_description"> Descripcion de la regla</string>
+    <string name="second_product_description"> Descripcion de las tijeras</string>
+    <string name="third_product_description"> Descripcion del lapiz</string>
+    <string name="btb_back_text">Volver</string>
 </resources>
