@@ -20,7 +20,7 @@ public class InformationProductActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_product_information);
+        setContentView(R.layout.activity_product_list);
 
         btnBack = (Button) findViewById(R.id.btnBack);
         textProductName = (TextView) findViewById(R.id.productName);
