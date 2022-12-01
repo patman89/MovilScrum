@@ -26,8 +26,8 @@
 
     // InformationProductActivity
     <string name="title_description"> Descripcion</string>
-    <string name="first_product_description"> Descripcion de la regla</string>
-    <string name="second_product_description"> Descripcion de las tijeras</string>
-    <string name="third_product_description"> Descripcion del lapiz</string>
+    <string name="first_product_description"> Regla color amarilla 50 cm</string>
+    <string name="second_product_description">Tijeras color azul  </string>
+    <string name="third_product_description"> Lapiz amarillo No2</string>
     <string name="btb_back_text">Volver</string>
 </resources>
