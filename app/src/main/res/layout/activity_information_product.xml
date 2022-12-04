@@ -28,140 +28,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
+                android:fontFamily="@font/baloo_da"
+                android:padding="25dp"
                 android:text="@string/title_product"
-            android:fontFamily="@font/baloo_da"
-            android:textColor="@color/aqua"
-                android:textSize="42sp"
-                android:padding="25dp"/>
+                android:textColor="@color/aqua"
+                android:textSize="42sp" />
 
         </LinearLayout>
 
-        <LinearLayout
+        <ListView
+            android:id="@+id/listViewProducts"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:padding="1dp">
+            android:layout_height="match_parent" />
 
-            <ImageView
-                android:id="@+id/imageFirstProduct"
-                android:layout_width="128dp"
-                android:layout_height="128dp"
-                android:layout_margin="10dp"
-                app:srcCompat="@drawable/regla"  />
-
-            <TextView
-                android:id="@+id/nameFirstProduct"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/white"
-                android:fontFamily="@font/patrick_hand"
-                android:inputType="textPersonName"
-                android:text="@string/first_product_name"
-            android:textColor="@color/white"
-            android:textSize="24sp"
-            android:typeface="normal" />
-
-
-            <Button
-                android:id="@+id/btnFirstProduct"
-                android:layout_width="120dp"
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
-                android:text="@string/btbFirstProduct"
-            android:background="@drawable/round_btn"
-            android:fontFamily="@font/patrick_hand"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:padding="1dp">
-
-            <ImageView
-                android:id="@+id/imageSecondProduct"
-                android:layout_width="128dp"
-                android:layout_height="128dp"
-                android:layout_margin="10dp"
-                app:srcCompat="@drawable/tijeras" />
-
-            <TextView
-                android:id="@+id/nameSecondProduct"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/white"
-                android:fontFamily="@font/patrick_hand"
-                android:inputType="textPersonName"
-                android:text="@string/second_product_name"
-            android:textColor="@color/white"
-            android:textSize="24sp"  />
-
-            <Button
-                android:id="@+id/btnSecondProduct"
-                android:layout_width="120dp"
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
-                android:text="@string/btnSecondProduct"
-            android:background="@drawable/round_btn"
-            android:fontFamily="@font/patrick_hand"
-            android:lineSpacingExtra="20sp"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
-
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:padding="1dp">
-
-            <ImageView
-                android:id="@+id/imageThirdProduct"
-                android:layout_width="128dp"
-                android:layout_height="128dp"
-                android:layout_margin="10dp"
-                app:srcCompat="@drawable/lapiz" />
-
-            <TextView
-                android:id="@+id/nameThirdProduct"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/white"
-                android:fontFamily="@font/patrick_hand"
-                android:inputType="textPersonName"
-
-                android:text="@string/third_product_name"
-            android:textColor="@color/white"
-            android:textSize="24sp"  />
-
-            <Button
-                android:id="@+id/btnThirdProduct"
-                android:layout_width="120dp"
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
-
-                android:text="@string/btnThirdProduct"
-            android:background="@drawable/round_btn"
-            android:fontFamily="@font/patrick_hand"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
-
-        </LinearLayout>
 
     </LinearLayout>
 
