@@ -16,24 +16,27 @@ public class InformationProductActivity extends AppCompatActivity {
 
     private TextView textProductName;
     private TextView textProductDescription;
+    private TextView textProductPrice;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_product_information);
+        setContentView(R.layout.activity_product_list);
 
         btnBack = (Button) findViewById(R.id.btnBack);
+        imageProduct = (ImageView) findViewById(R.id.imageProduct);
         textProductName = (TextView) findViewById(R.id.productName);
         textProductDescription = (TextView) findViewById(R.id.productDescription);
-        imageProduct = (ImageView) findViewById(R.id.imageProduct);
+        textProductPrice = (TextView) findViewById(R.id.productPrice);
        getInformation();
        setBackButton();
     }
     private void getInformation(){
         Intent intentInListInformation =getIntent();
         imageProduct.setImageResource(intentInListInformation.getIntExtra("image",0));
-        textProductName.setText(intentInListInformation.getIntExtra("name",0));
-        textProductDescription.setText(intentInListInformation.getIntExtra("description",0));
+        textProductName.setText(intentInListInformation.getStringExtra("name"));
+        textProductDescription.setText(intentInListInformation.getStringExtra("description"));
+        textProductPrice.setText(intentInListInformation.getStringExtra("price"));
     }
     private void setBackButton(){
         btnBack.setOnClickListener(new View.OnClickListener(){
