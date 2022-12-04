@@ -1,58 +1,44 @@
 package com.example.movilscrum;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+import android.widget.ListView;
+
+import com.example.movilscrum.Adapaters.ProductAdapter;
+import com.example.movilscrum.Entities.Product;
+
+import java.util.ArrayList;
 
 public class ProductListActivity extends AppCompatActivity {
-
-    private Button btnInformationFirstProduct;
-    private Button btnInformationSecondProduct;
-    private Button btnInformationThirdProduct;
+    private ListView listViewProducts;
+    private ProductAdapter productAdapter;
+    private ArrayList<Product> products;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_information_product);
 
-        btnInformationFirstProduct = (Button) findViewById(R.id.btnFirstProduct);
-        btnInformationSecondProduct = (Button) findViewById(R.id.btnSecondProduct);
-        btnInformationThirdProduct = (Button) findViewById(R.id.btnThirdProduct);
+        listViewProducts = (ListView) findViewById(R.id.listViewProducts);
+        products = new ArrayList<>();
+        AddProduct(R.drawable.regla,"Regla","Regla color amarilla 50 cm","1000");
+        AddProduct(R.drawable.tijeras,"Tijeras","Iijeras color azul","1000");
+        AddProduct(R.drawable.lapiz,"Lapiz","Lapiz amarillo No2","1500");
+        AddProduct(R.drawable.cuaderno,"Cuaderno","Cuaderno descripcion","1200");
+        AddProduct(R.drawable.carpeta,"Carpeta","Carpeta descripcion","1800");
+        AddProduct(R.drawable.compas,"Compas","Compas descripcion","1400");
+        AddProduct(R.drawable.transportador,"Transportador","Transportador descripcion","1300");
+        AddProduct(R.drawable.cartuchera,"Cartuchera","Cartuchera descripcion","1400");
+        AddProduct(R.drawable.temperas,"Temperas","Temperas descripcion","1300");
+        AddProduct(R.drawable.pincel,"Pincel","Pincel descripcion","1400");
 
-        setButtons();
+        productAdapter = new ProductAdapter(this,products);
+        listViewProducts.setAdapter(productAdapter);
     }
 
-    private void setButtons(){
-        btnInformationFirstProduct.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view)
-            {
-               sentInformation( R.drawable.regla, R.string.first_product_name, R.string.first_product_description);
-            }
-        });
-        btnInformationSecondProduct.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view)
-            {
-                sentInformation(R.drawable.tijeras, R.string.second_product_name, R.string.second_product_description);
-            }
-        });
-        btnInformationThirdProduct.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view)
-            {
-                sentInformation(R.drawable.lapiz, R.string.third_product_name, R.string.third_product_description);
-            }
-        });
-    }
-
-    private void sentInformation(int imageProduct, int productName, int productDescription){
-        Intent infoProductIntent = new Intent(getApplicationContext(), InformationProductActivity.class);
-        infoProductIntent.putExtra("image",imageProduct);
-        infoProductIntent.putExtra("name",productName);
-        infoProductIntent.putExtra("description",productDescription);
-        startActivity(infoProductIntent);
+    private void AddProduct(int image, String name, String description, String price)
+    {
+        Product product = new Product(image,name,description,price);
+        products.add(product);
     }
 }

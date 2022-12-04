@@ -29,5 +29,9 @@
     <string name="first_product_description"> Regla color amarilla 50 cm</string>
     <string name="second_product_description">Tijeras color azul  </string>
     <string name="third_product_description"> Lapiz amarillo No2</string>
+
+    <string name="first_product_price"> 1000</string>
+    <string name="second_product_price">1500  </string>
+    <string name="third_product_price"> 3000</string>
     <string name="btb_back_text">Volver</string>
 </resources>
