@@ -1,5 +1,6 @@
 package com.example.movilscrum;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -45,7 +46,7 @@ public class ProductListActivity extends AppCompatActivity {
         Product product = new Product(image,name,description,price);
         products.add(product);
     }
-    /*
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main_menu, menu);
@@ -54,9 +55,10 @@ public class ProductListActivity extends AppCompatActivity {
     @Override
     public  boolean onOptionsItemSelected(@NonNull MenuItem item){
         if(item.getItemId() == R.id.addProduct){
-            Toast.makeText(getApplicationContext(),"Añadir Item",Toast.LENGTH_SHORT).show();
+            Intent addProductIntent = new Intent(getApplicationContext(), AddProductFormActivity.class);
+            startActivity(addProductIntent);
            return true;
         }
         return super.onOptionsItemSelected(item);
-    }*/
+    }
 }
