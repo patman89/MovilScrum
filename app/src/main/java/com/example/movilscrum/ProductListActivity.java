@@ -1,8 +1,12 @@
 package com.example.movilscrum;
 
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.example.movilscrum.Adapaters.ProductAdapter;
 import com.example.movilscrum.Entities.Product;
@@ -41,4 +45,18 @@ public class ProductListActivity extends AppCompatActivity {
         Product product = new Product(image,name,description,price);
         products.add(product);
     }
+    /*
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+    }
+    @Override
+    public  boolean onOptionsItemSelected(@NonNull MenuItem item){
+        if(item.getItemId() == R.id.addProduct){
+            Toast.makeText(getApplicationContext(),"Añadir Item",Toast.LENGTH_SHORT).show();
+           return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }*/
 }
