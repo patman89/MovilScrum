@@ -55,18 +55,22 @@ public class ProductAdapter  extends BaseAdapter {
         imageProduct.setImageResource(product.getImage());
         nameProduct.setText(product.getName());
 
+        setInformationButton(product, btnInformationProduct);
+
+        return covertView;
+    }
+
+    private void setInformationButton(Product product, Button btnInformationProduct) {
         btnInformationProduct.setOnClickListener(new View.OnClickListener(){
             @Override
             public  void onClick(View view) {
                 Intent infoProductIntent = new Intent(context.getApplicationContext(), InformationProductActivity.class);
                 infoProductIntent.putExtra("image", product.getImage());
                 infoProductIntent.putExtra("name", product.getName());
-                infoProductIntent.putExtra("description",product.getDescription());
-                infoProductIntent.putExtra("price",product.getPrice());
+                infoProductIntent.putExtra("description", product.getDescription());
+                infoProductIntent.putExtra("price", product.getPrice());
                 context.startActivity(infoProductIntent);
             }
         });
-
-        return covertView;
     }
 }

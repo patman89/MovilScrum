@@ -1,7 +1,7 @@
 package com.example.movilscrum.Entities;
 
 public class Product {
-    private int id;
+    private String id;
     private int image;
     private String name;
     private String description;
@@ -12,6 +12,19 @@ public class Product {
         this.name = name;
         this.description = description;
         this.price = price;
+    }
+    public Product( String name, String description, String price) {
+        this.name = name;
+        this.description = description;
+        this.price = price;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public int getImage() {

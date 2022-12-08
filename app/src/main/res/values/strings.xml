@@ -23,6 +23,9 @@
     <string name="title_description"> Descripcion</string>
     <string name="btb_back_text">Volver</string>
 
+    // PopUpMenu
+    <string name="add_product_pop_menu"> Añadir Producto</string>
+
      // FormAddProductActivity
     <string name="title_add_product"> Añadir Producto</string>
     <string name="tittle_add_product_name"> Nombre</string>
