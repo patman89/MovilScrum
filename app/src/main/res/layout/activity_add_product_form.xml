@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddProductFormActivity">
+    tools:context=".AddProductFormActivity"
+    android:background="@drawable/fondo">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,9 +18,11 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="26dp"
             android:gravity="center"
-            android:text="@string/title_add_product" />
+            android:fontFamily="@font/baloo_da"
+            android:textColor="@color/aqua"
+            android:text="@string/title_add_product"
+            android:textSize="42sp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -32,7 +35,9 @@
                 android:layout_width="256dp"
                 android:layout_height="256dp"
                 android:layout_margin="15dp"
-                app:srcCompat="@android:drawable/checkbox_off_background" />
+                app:srcCompat="@drawable/fondo256"
+
+                />
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -52,11 +57,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/tittle_add_product_name" />
+
+                    android:text="@string/tittle_add_product_name"
+
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/patrick_hand"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:typeface="normal"
+                    />
 
                 <EditText
                     android:id="@+id/nameProductToAdd"
-                    android:layout_width="wrap_content"
+                    android:layout_width="243dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
@@ -74,7 +88,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/tittle_add_product_description" />
+                    android:text="@string/tittle_add_product_description"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/patrick_hand"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:typeface="normal"/>
 
                 <EditText
                     android:id="@+id/descriptionProductToAdd"
@@ -96,11 +116,18 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/tittle_add_product_price" />
+                    android:text="@string/tittle_add_product_price"
+
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/patrick_hand"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:typeface="normal"/>
 
                 <EditText
                     android:id="@+id/priceProductToAdd"
-                    android:layout_width="wrap_content"
+                    android:layout_width="258dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
@@ -113,10 +140,14 @@
 
         <Button
             android:id="@+id/btnSaveNewProduct"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="26dp"
-            android:text="@string/tittle_save_product" />
+            android:text="@string/tittle_save_product"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_btn"
+            android:fontFamily="@font/patrick_hand"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
