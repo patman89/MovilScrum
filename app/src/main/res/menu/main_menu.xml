@@ -10,7 +10,7 @@
             <item
                 android:id="@+id/addProduct"
                 app:showAsAction="ifRoom"
-                android:title="Item" />
+                android:title="Añadir Producto" />
         </menu>
     </item>
 </menu>
