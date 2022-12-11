@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 
 import com.example.movilscrumm.Adapters.ProductAdapter;
 import com.example.movilscrumm.Entities.Product;
+import com.example.movilscrumm.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -39,10 +40,12 @@ public class DBFirebase {
                             return;
                         for(QueryDocumentSnapshot document: task.getResult()) {
                             Product product = new Product(
+                                    R.drawable.maleta,
                                     document.getData().get("name").toString(),
                                     document.getData().get("description").toString(),
                                     document.getData().get("price").toString()
                             );
+                            products.add(product);
                         }
                         productAdapter.notifyDataSetChanged();
                     }

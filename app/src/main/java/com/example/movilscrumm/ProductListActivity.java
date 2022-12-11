@@ -40,9 +40,10 @@ public class ProductListActivity extends AppCompatActivity {
         addProduct(R.drawable.pincel,"Pincel","Pincel N° 06 redondo de madera","1400");*/
 
         productAdapter = new ProductAdapter(this,products);
-        listViewProducts.setAdapter(productAdapter);
         dbFirebase = new DBFirebase();
          dbFirebase.getProducts(productAdapter,products);
+        listViewProducts.setAdapter(productAdapter);
+
     }
     /*
         private void addProduct(int image, String name, String description, String price)
