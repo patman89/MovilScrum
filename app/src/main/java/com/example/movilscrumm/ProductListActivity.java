@@ -1,16 +1,17 @@
-package com.example.movilscrum;
+package com.example.movilscrumm;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
 
-import com.example.movilscrum.Adapaters.ProductAdapter;
-import com.example.movilscrum.DB.DBFirebase;
-import com.example.movilscrum.Entities.Product;
+import com.example.movilscrumm.Adapters.ProductAdapter;
+import com.example.movilscrumm.DB.DBFirebase;
+import com.example.movilscrumm.Entities.Product;
 
 import java.util.ArrayList;
 
@@ -22,7 +23,7 @@ public class ProductListActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_information_product);
+        setContentView(R.layout.activity_product_list);
 
         listViewProducts = (ListView) findViewById(R.id.listViewProducts);
         products = new ArrayList<>();
@@ -40,15 +41,16 @@ public class ProductListActivity extends AppCompatActivity {
 
         productAdapter = new ProductAdapter(this,products);
         listViewProducts.setAdapter(productAdapter);
-       // dbFirebase.getProducts(productAdapter,products);
+        dbFirebase = new DBFirebase();
+         dbFirebase.getProducts(productAdapter,products);
     }
-/*
-    private void addProduct(int image, String name, String description, String price)
-    {
-        Product product = new Product(image,name,description,price);
-        products.add(product);
-    }
-*/
+    /*
+        private void addProduct(int image, String name, String description, String price)
+        {
+            Product product = new Product(image,name,description,price);
+            products.add(product);
+        }
+    */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main_menu, menu);
@@ -59,7 +61,7 @@ public class ProductListActivity extends AppCompatActivity {
         if(item.getItemId() == R.id.addProduct){
             Intent addProductIntent = new Intent(getApplicationContext(), AddProductFormActivity.class);
             startActivity(addProductIntent);
-           return true;
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }

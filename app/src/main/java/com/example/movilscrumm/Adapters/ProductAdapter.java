@@ -1,4 +1,4 @@
-package com.example.movilscrum.Adapaters;
+package com.example.movilscrumm.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,9 +10,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.movilscrum.Entities.Product;
-import com.example.movilscrum.InformationProductActivity;
-import com.example.movilscrum.R;
+import com.example.movilscrumm.Entities.Product;
+import com.example.movilscrumm.InformationProductActivity;
+import com.example.movilscrumm.R;
 
 import java.util.ArrayList;
 

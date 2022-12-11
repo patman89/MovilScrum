@@ -1,4 +1,4 @@
-package com.example.movilscrum;
+package com.example.movilscrumm;
 
 import org.junit.Test;
 

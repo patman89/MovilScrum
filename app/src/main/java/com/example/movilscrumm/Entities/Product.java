@@ -1,4 +1,4 @@
-package com.example.movilscrum.Entities;
+package com.example.movilscrumm.Entities;
 
 public class Product {
     private String id;

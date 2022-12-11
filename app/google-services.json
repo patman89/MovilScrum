@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "679208005362",
+    "firebase_url": "https://movilscrum-2022-default-rtdb.firebaseio.com",
+    "project_id": "movilscrum-2022",
+    "storage_bucket": "movilscrum-2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679208005362:android:b1b87a99539f3e74eeaa6b",
+        "android_client_info": {
+          "package_name": "com.example.movilscrum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679208005362-bp07cif0m04c6bksjd7hicebuan8a65t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuvhe0WET1qtUjHjb-Tna9RN-e11NBhg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679208005362-bp07cif0m04c6bksjd7hicebuan8a65t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679208005362:android:a6809d96f13d2830eeaa6b",
+        "android_client_info": {
+          "package_name": "com.example.movilscrum2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679208005362-bp07cif0m04c6bksjd7hicebuan8a65t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuvhe0WET1qtUjHjb-Tna9RN-e11NBhg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679208005362-bp07cif0m04c6bksjd7hicebuan8a65t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679208005362:android:a1a5dfd8a57134eceeaa6b",
+        "android_client_info": {
+          "package_name": "com.example.movilscrumm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679208005362-bp07cif0m04c6bksjd7hicebuan8a65t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuvhe0WET1qtUjHjb-Tna9RN-e11NBhg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679208005362-bp07cif0m04c6bksjd7hicebuan8a65t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679208005362:android:cfdd2dcb4241ddfeeeaa6b",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679208005362-bp07cif0m04c6bksjd7hicebuan8a65t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuvhe0WET1qtUjHjb-Tna9RN-e11NBhg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679208005362-bp07cif0m04c6bksjd7hicebuan8a65t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,7 +1,8 @@
-package com.example.movilscrum;
+package com.example.movilscrumm;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,8 +10,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.example.movilscrum.DB.DBFirebase;
-import com.example.movilscrum.Entities.Product;
+import com.example.movilscrumm.DB.DBFirebase;
+import com.example.movilscrumm.Entities.Product;
 
 public class AddProductFormActivity extends AppCompatActivity {
     private Button btnSaveNewProduct;
@@ -19,7 +20,6 @@ public class AddProductFormActivity extends AppCompatActivity {
     private EditText descriptionProductToAdd;
     private EditText priceProductToAdd;
     private DBFirebase dbFirebase;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,7 +33,7 @@ public class AddProductFormActivity extends AppCompatActivity {
         setSaveButton();
     }
 
-    private void setSaveButton(){
+    private void setSaveButton() {
         btnSaveNewProduct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -43,7 +43,7 @@ public class AddProductFormActivity extends AppCompatActivity {
                         priceProductToAdd.getText().toString()
                 );
                 dbFirebase.insertProduct(product);
-                Toast.makeText(getApplicationContext(),"Save Product",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Save Product", Toast.LENGTH_SHORT).show();
                 Intent productListIntent = new Intent(getApplicationContext(), ProductListActivity.class);
                 startActivity(productListIntent);
             }

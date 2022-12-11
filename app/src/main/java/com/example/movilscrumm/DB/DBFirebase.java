@@ -1,9 +1,9 @@
-package com.example.movilscrum.DB;
+package com.example.movilscrumm.DB;
 
 import androidx.annotation.NonNull;
 
-import com.example.movilscrum.Adapaters.ProductAdapter;
-import com.example.movilscrum.Entities.Product;
+import com.example.movilscrumm.Adapters.ProductAdapter;
+import com.example.movilscrumm.Entities.Product;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -35,18 +35,18 @@ public class DBFirebase {
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     @Override
                     public void onComplete(@NonNull Task<QuerySnapshot> task) {
-                       if(!task.isSuccessful())
-                           return;
-                       for(QueryDocumentSnapshot document: task.getResult()) {
+                        if(!task.isSuccessful())
+                            return;
+                        for(QueryDocumentSnapshot document: task.getResult()) {
                             Product product = new Product(
-                                document.getData().get("name").toString(),
-                                document.getData().get("description").toString(),
-                                document.getData().get("price").toString()
+                                    document.getData().get("name").toString(),
+                                    document.getData().get("description").toString(),
+                                    document.getData().get("price").toString()
                             );
-                       }
-                       productAdapter.notifyDataSetChanged();
+                        }
+                        productAdapter.notifyDataSetChanged();
                     }
-        });
+                });
 
     }
 }

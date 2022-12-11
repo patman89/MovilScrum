@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">MovilScrum</string>
-    <string name="title_activity_informacion_producto2">activity_informacionProducto2</string>
+    <string name="app_name">MovilScrumm</string>
+
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -23,10 +23,7 @@
     <string name="title_description"> Descripcion</string>
     <string name="btb_back_text">Volver</string>
 
-    // PopUpMenu
-    <string name="add_product_pop_menu"> Añadir Producto</string>
-
-     // FormAddProductActivity
+    // FormAddProductActivity
     <string name="title_add_product"> Añadir Producto</string>
     <string name="tittle_add_product_name"> Nombre</string>
     <string name="tittle_add_product_description"> Descripcion</string>
