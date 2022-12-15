@@ -11,6 +11,14 @@
                 android:id="@+id/addProduct"
                 app:showAsAction="ifRoom"
                 android:title="Añadir Producto" />
+            <item
+                android:id="@+id/deleteProduct"
+                app:showAsAction="ifRoom"
+                android:title="Borrar Producto" />
+            <item
+                android:id="@+id/aProduct"
+                app:showAsAction="ifRoom"
+                android:title="Editar Producto" />
         </menu>
     </item>
 </menu>
