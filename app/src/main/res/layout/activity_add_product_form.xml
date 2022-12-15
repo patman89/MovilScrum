@@ -58,7 +58,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
 
-                    android:text="@string/tittle_add_product_name"
+                    android:text="@string/title_add_product_name"
 
                     android:layout_margin="10dp"
                     android:backgroundTint="@color/white"
@@ -88,7 +88,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/tittle_add_product_description"
+                    android:text="@string/title_add_product_description"
                     android:layout_margin="10dp"
                     android:backgroundTint="@color/white"
                     android:fontFamily="@font/patrick_hand"
@@ -116,7 +116,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/tittle_add_product_price"
+                    android:text="@string/title_add_product_price"
 
                     android:layout_margin="10dp"
                     android:backgroundTint="@color/white"
@@ -140,7 +140,7 @@
 
         <Button
             android:id="@+id/btnSaveNewProduct"
-            android:text="@string/tittle_save_product"
+            android:text="@string/title_save_product"
             android:layout_width="120dp"
             android:layout_height="50dp"
             android:layout_margin="10dp"
