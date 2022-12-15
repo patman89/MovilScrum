@@ -12,12 +12,12 @@
 
     // HomeActivity strings
     <string name="title_welcome"> Bienvenidos</string>
-    <string name="btn_login_text"> Entrar</string>
+    <string name="btn_enter_text"> Entrar</string>
 
     // ProductListActivity string
     <string name="title_product"> Productos</string>
     <string name="product_name"> Regla</string>
-    <string name="btnInfoProduct">Info</string>
+    <string name="btn_info_product">Info</string>
 
     // InformationProductActivity
     <string name="title_description"> Descripcion</string>
@@ -25,8 +25,17 @@
 
     // FormAddProductActivity
     <string name="title_add_product"> Añadir Producto</string>
-    <string name="tittle_add_product_name"> Nombre</string>
-    <string name="tittle_add_product_description"> Descripcion</string>
-    <string name="tittle_add_product_price"> Precio</string>
-    <string name="tittle_save_product"> Save</string>
+    <string name="title_add_product_name"> Nombre</string>
+    <string name="title_add_product_description"> Descripcion</string>
+    <string name="title_add_product_price"> Precio</string>
+    <string name="title_save_product"> Save</string>
+
+    // Register and login
+    <string name="title_email"> Email</string>
+    <string name="title_password"> Contraseña</string>
+    <string name="title_confirm_password"> Confirmar</string>
+    <string name="btn_login_text"> Ingresar </string>
+    <string name="btn_register_text"> Registrar</string>
+
+
 </resources>

@@ -20,8 +20,8 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view)
             {
-                Intent productListIntent = new Intent(getApplicationContext(), ProductListActivity.class);
-                startActivity(productListIntent);
+                Intent loginIntent = new Intent(getApplicationContext(), LoginActivity.class);
+                startActivity(loginIntent);
             }
         });
     }

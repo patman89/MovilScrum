@@ -66,7 +66,7 @@
             android:layout_margin="10dp"
             android:background="@drawable/round_btn"
             android:fontFamily="@font/patrick_hand"
-            android:text="@string/btn_login_text"
+            android:text="@string/btn_enter_text"
             android:textColor="@color/white"
             android:textSize="20sp" />
     </LinearLayout>
