@@ -59,11 +59,16 @@ public class ProductListActivity extends AppCompatActivity {
     }
     @Override
     public  boolean onOptionsItemSelected(@NonNull MenuItem item){
-        if(item.getItemId() == R.id.addProduct){
-            Intent addProductIntent = new Intent(getApplicationContext(), AddProductFormActivity.class);
-            startActivity(addProductIntent);
-            return true;
+        switch (item.getItemId()){
+            case R.id.addProduct:
+                Intent addProductIntent = new Intent(getApplicationContext(), AddProductFormActivity.class);
+                startActivity(addProductIntent);
+                return true;
+            case R.id.map:
+                Intent mapIntent = new Intent(getApplicationContext(), MapActivity.class);
+                startActivity(mapIntent);
+                return true;
         }
-        return super.onOptionsItemSelected(item);
+        return  super.onOptionsItemSelected(item);
     }
 }
