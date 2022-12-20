@@ -31,6 +31,7 @@
                 android:backgroundTint="@color/white"
                 android:fontFamily="@font/patrick_hand"
                 android:textColor="@color/white"
+                android:textSize="24sp"
                 android:text="@string/title_email" />
 
             <EditText
@@ -55,6 +56,7 @@
                 android:backgroundTint="@color/white"
                 android:fontFamily="@font/patrick_hand"
                 android:textColor="@color/white"
+                android:textSize="24sp"
                 android:text="@string/title_password" />
 
             <EditText
@@ -82,6 +84,7 @@
                 android:fontFamily="@font/patrick_hand"
                 android:textColor="@color/white"
                 android:background="@drawable/round_btn"
+                android:textSize="20sp"
                 android:text="@string/btn_login_text" />
         </LinearLayout>
         <LinearLayout
@@ -98,6 +101,7 @@
                 android:fontFamily="@font/patrick_hand"
                 android:textColor="@color/white"
                 android:background="@drawable/round_btn"
+                android:textSize="20sp"
                 android:text="@string/btn_register_text" />
         </LinearLayout>
     </LinearLayout>
