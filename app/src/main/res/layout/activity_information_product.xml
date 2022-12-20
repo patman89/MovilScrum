@@ -61,16 +61,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Descripcion"
-                android:textColor="@color/black"
-                android:textSize="18dp"
+                android:fontFamily="@font/patrick_hand"
+                android:textColor="@color/white"
+                android:textSize="24sp"
                 android:padding="5dp"/>
             <TextView
                 android:id="@+id/productDescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/title_description"
-                android:textColor="@color/black"
-                android:textSize="18dp"
+                android:fontFamily="@font/patrick_hand"
+                android:textColor="@color/white"
+                android:textSize="24sp"
                 android:padding="5dp"/>
 
         </LinearLayout>
@@ -87,8 +89,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Price"
-                android:textColor="@color/black"
-                android:textSize="22dp"
+                android:fontFamily="@font/patrick_hand"
+                android:textColor="@color/white"
+                android:textSize="24sp"
                 android:padding="5dp"/>
 
         </LinearLayout>

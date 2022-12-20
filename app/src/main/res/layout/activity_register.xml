@@ -21,8 +21,11 @@
 
             <TextView
                 android:id="@+id/titleEmail"
-                android:layout_width="80dp"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/patrick_hand"
+                android:textColor="@color/white"
+                android:textSize="24sp"
                 android:text="@string/title_email" />
 
             <EditText
@@ -42,8 +45,11 @@
 
             <TextView
                 android:id="@+id/titlePassword"
-                android:layout_width="80dp"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/patrick_hand"
+                android:textColor="@color/white"
+                android:textSize="24sp"
                 android:text="@string/title_password" />
 
             <EditText
@@ -63,8 +69,11 @@
 
             <TextView
                 android:id="@+id/titleConfirmPassword"
-                android:layout_width="80dp"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/patrick_hand"
+                android:textColor="@color/white"
+                android:textSize="24sp"
                 android:text="@string/title_confirm_password" />
 
             <EditText
@@ -85,8 +94,14 @@
 
             <Button
                 android:id="@+id/btnRegister"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_btn"
+                android:fontFamily="@font/patrick_hand"
+                android:textColor="@color/white"
+                android:textSize="20sp"
                 android:text="@string/btn_register_text" />
         </LinearLayout>
     </LinearLayout>
