@@ -16,9 +16,9 @@
 
         <ImageView
             android:id="@+id/imageListProduct"
-            android:layout_width="128dp"
-            android:layout_height="128dp"
-            android:layout_margin="10dp"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_margin="5dp"
             app:srcCompat="@drawable/regla"  />
 
         <TextView
