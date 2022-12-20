@@ -28,6 +28,9 @@
                 android:id="@+id/titleEmail"
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/patrick_hand"
+                android:textColor="@color/white"
                 android:text="@string/title_email" />
 
             <EditText
@@ -49,6 +52,9 @@
                 android:id="@+id/titlePassword"
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/patrick_hand"
+                android:textColor="@color/white"
                 android:text="@string/title_password" />
 
             <EditText
@@ -72,6 +78,10 @@
                 android:id="@+id/btnLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/patrick_hand"
+                android:textColor="@color/white"
+                android:background="@drawable/round_btn"
                 android:text="@string/btn_login_text" />
         </LinearLayout>
         <LinearLayout
@@ -84,6 +94,10 @@
                 android:id="@+id/btnStartRegister"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/patrick_hand"
+                android:textColor="@color/white"
+                android:background="@drawable/round_btn"
                 android:text="@string/btn_register_text" />
         </LinearLayout>
     </LinearLayout>
