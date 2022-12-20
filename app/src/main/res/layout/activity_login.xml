@@ -26,7 +26,7 @@
 
             <TextView
                 android:id="@+id/titleEmail"
-                android:layout_width="80dp"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
                 android:fontFamily="@font/patrick_hand"
@@ -51,7 +51,7 @@
 
             <TextView
                 android:id="@+id/titlePassword"
-                android:layout_width="80dp"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
                 android:fontFamily="@font/patrick_hand"
